@@ -10,6 +10,7 @@ interface RealtimeBannerProps {
   initialUrl?: string  // URL pre-fetched en el servidor - evita flash en primera carga
   alt: string
   className?: string
+  imageClassName?: string
   children?: React.ReactNode
   priority?: boolean
 }
@@ -20,6 +21,7 @@ export function RealtimeBanner({
   initialUrl,
   alt,
   className,
+  imageClassName,
   children,
   priority = false,
 }: RealtimeBannerProps) {
@@ -38,7 +40,7 @@ export function RealtimeBanner({
         alt={alt}
         width={1400}
         height={700}
-        className="w-full h-auto block"
+        className={cn('w-full h-auto block', imageClassName)}
         priority={priority}
         fetchPriority={priority ? 'high' : 'auto'}
         quality={85}

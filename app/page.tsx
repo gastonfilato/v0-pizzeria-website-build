@@ -36,6 +36,7 @@ export default async function HomePage() {
         fallbackUrl={FALLBACK_BANNER}
         initialUrl={initialBannerUrl}
         alt="Pizza napolitana artesanal - TOTORE fresco, auténtica"
+        imageClassName="h-[calc(100svh-4rem)] object-cover"
         priority
       >
         <div className="w-full px-4 sm:px-8 pb-6 sm:pb-10">
