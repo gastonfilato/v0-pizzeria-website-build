@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { useStore, type SiteConfig } from "@/lib/store"
+import { DEFAULT_BUSINESS_HOURS } from "@/lib/business-hours"
 
 export default function ConfiguracionPage() {
   const { config, setConfig } = useStore()
@@ -99,7 +100,7 @@ export default function ConfiguracionPage() {
             value={form.hours}
             onChange={(e) => set("hours", e.target.value)}
             rows={3}
-            placeholder="Martes a Domingo — 20:00 a 23:30"
+            placeholder={DEFAULT_BUSINESS_HOURS}
             className="bg-admin-bg border-admin-border text-admin-text resize-none"
           />
         </Field>

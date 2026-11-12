@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { MapPin, Clock, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useBannersContext } from '@/components/banners-provider'
+import { BusinessHours } from '@/components/business-hours'
 
 export function StoreContent() {
   const { content } = useStore()
@@ -95,8 +96,7 @@ export function StoreContent() {
                 <div>
                   <h3 className="font-medium text-foreground">Horarios</h3>
                   <p className="text-muted-foreground mt-1">
-                    Martes a Domingo<br />
-                    20:00 a 23:30
+                    <BusinessHours />
                   </p>
                 </div>
               </div>

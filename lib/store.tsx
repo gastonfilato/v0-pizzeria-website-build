@@ -9,6 +9,7 @@ import {
   type ReactNode,
 } from "react"
 import { createClient } from "@/lib/supabase/client"
+import { DEFAULT_BUSINESS_HOURS } from "@/lib/business-hours"
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -120,7 +121,7 @@ const initialContent: SiteContent = {
 const initialConfig: SiteConfig = {
   whatsapp: "+5491234567890",
   address: "Balbín 2916, El Palomar, Buenos Aires",
-  hours: "Lun-Dom 20:00-00:00",
+  hours: DEFAULT_BUSINESS_HOURS,
   instagram: "https://www.instagram.com/totorepizza/",
   footerText: "Pizza estilo italiana en Ciudad Jardín",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7627!2d-58.5939368!3d-34.6019617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb85232ffb9d7%3A0xd6df09dedb7a8f01!2sAv.+Dr.+Ricardo+Balb%C3%ADn+2916%2C+B1684+El+Palomar%2C+Provincia+de+Buenos+Aires!5e0!3m2!1ses!2sar!4v1746000000000",
@@ -270,7 +271,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         setConfigState({
           whatsapp: data.whatsapp,
           address: data.address,
-          hours: data.hours,
+          hours: data.hours?.trim() && data.hours.trim() !== "Lun-Dom 20:00-00:00"
+            ? data.hours
+            : DEFAULT_BUSINESS_HOURS,
           instagram: data.instagram,
           footerText: data.footer_text,
           mapEmbedUrl: data.map_embed_url,

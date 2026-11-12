@@ -1,11 +1,12 @@
 import { RealtimeBanner } from "@/components/realtime-banner"
 import { Button } from "@/components/ui/button"
 import { ContactForm } from "@/components/contact-form"
+import { BusinessHours } from "@/components/business-hours"
 import { MessageCircle, Instagram, MapPin, Clock } from "lucide-react"
 
 export const metadata = {
   title: "Contacto | Totore",
-  description: "Encontranos en Balbín 2916, El Palomar. Abiertos de Martes a Domingo, 20:00 a 23:30.",
+  description: "Encontranos en Balbín 2916, El Palomar. Consultá nuestros horarios de atención.",
 }
 
 export default function ContactPage() {
@@ -56,7 +57,7 @@ export default function ContactPage() {
                 <ContactInfoCard
                   icon={<Clock className="w-6 h-6 text-primary" />}
                   label="Horarios"
-                  value="Mar-Dom: 20:00 - 23:30"
+                  value={<BusinessHours />}
                 />
               </div>
 
@@ -112,7 +113,7 @@ function ContactInfoCard({
 }: {
   icon: React.ReactNode
   label: string
-  value: string
+  value: React.ReactNode
   href?: string
 }) {
   const content = (

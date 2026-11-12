@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Instagram, MessageCircle } from "lucide-react"
 import { useStore } from "@/lib/store"
+import { BusinessHours } from "@/components/business-hours"
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -57,7 +58,7 @@ export function Footer() {
             <h3 className="font-medium text-primary-foreground mb-4">Contacto</h3>
             <div className="flex flex-col gap-1 text-sm text-secondary-foreground/80">
               <p>{config.address}</p>
-              <p className="mt-2 whitespace-pre-line">{config.hours}</p>
+              <p className="mt-2"><BusinessHours /></p>
             </div>
             <div className="flex gap-4 mt-4">
               {config.instagram && (
@@ -91,12 +92,6 @@ export function Footer() {
             <p className="text-sm text-secondary-foreground/60">
               © {new Date().getFullYear()} Totore. Todos los derechos reservados.
             </p>
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-primary"></span>
-              <span className="text-xs text-secondary-foreground/60">
-                {config.hours.split("\n")[0] || "Delivery desde las 20"}
-              </span>
-            </div>
           </div>
         </div>
       </div>
