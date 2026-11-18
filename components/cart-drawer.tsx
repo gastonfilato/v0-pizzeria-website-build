@@ -159,6 +159,7 @@ ${lineSep}
       const message = buildMessage()
       const encoded = encodeURIComponent(message)
       const url     = `https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`
+            ;(window as any).fbq?.('track', 'Contact', { value: totalPrice + (form.entrega === "delivery" ? (config?.shippingCost || 0) : 0), currency: 'ARS' })
 
       // Open in new tab — works on iPhone Safari, Android Chrome, and desktop
       window.open(url, "_blank", "noopener,noreferrer")
