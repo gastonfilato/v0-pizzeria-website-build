@@ -67,6 +67,7 @@ export function DeliveryCatalog() {
   }
 
   const handleAddItem = (product: Product) => {
+        ;(window as any).fbq?.('track', 'AddToCart', { value: product.price, currency: 'ARS', content_name: product.name })
     addItem({
       id: product.id,
       name: product.name,
