@@ -1,0 +1,338 @@
+[
+  {
+    "table": "banners",
+    "column": "image_url",
+    "id": "acb03645-ec47-42e2-955b-e4fbd07a14cc",
+    "label": "favorites",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/banners/banner-favorites-1778027072146.jpg",
+    "file": "banner-favorites-1778027072146.jpg"
+  },
+  {
+    "table": "banners",
+    "column": "image_url",
+    "id": "7f546145-b960-4d67-a22d-e9d337281814",
+    "label": "promos",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/banners/banner-promos-1778027086608.jpg",
+    "file": "banner-promos-1778027086608.jpg"
+  },
+  {
+    "table": "banners",
+    "column": "image_url",
+    "id": "3f2d61f4-6286-4ccd-9326-1091c96b5a69",
+    "label": "home",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/banners/banner-home-1778804928933.jpg",
+    "file": "banner-home-1778804928933.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "c9d2a240-1ed6-4972-9f51-2f7ff0da9945",
+    "label": "Faina",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787190937.jpg",
+    "file": "products-1778787190937.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "a76fc1eb-21ca-4a99-b442-a717d8371434",
+    "label": "Calzone JyQ",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787369993.jpg",
+    "file": "products-1778787369993.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "e4d4d959-f786-4e77-99a2-4d06b3c94c23",
+    "label": "Calzone Peppe",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787409623.jpg",
+    "file": "products-1778787409623.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "6e9e572d-ed5b-4c4c-af16-db12a1557b4c",
+    "label": "Pomodorina",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680068058.jpg",
+    "file": "products-1778680068058.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "af3187ce-880d-4334-8a2a-7dcac30d9c03",
+    "label": "Cerveza Peroni",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787597382.jpg",
+    "file": "products-1778787597382.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "37eeedb2-2094-41cc-a1bc-9d868df65876",
+    "label": "Carbonara",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778679951541.jpg",
+    "file": "products-1778679951541.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "6573bac0-237e-460f-9014-8a3709345d6a",
+    "label": "Bianca",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778679965007.jpg",
+    "file": "products-1778679965007.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "4a2f0d51-3b2e-4468-a991-f68128a2a99d",
+    "label": "Agua con Gas 500ml",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787565868.jpg",
+    "file": "products-1778787565868.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "77f2abf1-d456-43ca-a264-a91a974b09c8",
+    "label": "Fugazzeta",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680006686.jpg",
+    "file": "products-1778680006686.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "7a6e3210-6434-4cb5-b11b-57edce340295",
+    "label": "Tartufata",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778679904060.jpg",
+    "file": "products-1778679904060.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "b4c19662-6eaf-4fa2-8cce-2f4b490556f0",
+    "label": "Capricciosa",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680113420.jpg",
+    "file": "products-1778680113420.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "157eede3-bb78-4b02-a02b-780f09f4267e",
+    "label": "Empanada Carne",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787246595.jpg",
+    "file": "products-1778787246595.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "581e638c-521b-437f-903f-da7fc2f89495",
+    "label": "Mortazza",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778679880089.jpg",
+    "file": "products-1778679880089.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "9c90c391-d7ff-4eb8-8d50-103136dd36a9",
+    "label": "Sprite 500ml",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787519508.jpg",
+    "file": "products-1778787519508.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "05d2619d-90d9-4569-8ef2-aac0b1dc20ec",
+    "label": "Cerveza Heineken",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787496183.jpg",
+    "file": "products-1778787496183.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "d2e18d5e-a775-4dc9-aecb-b2c7a6d8f0ac",
+    "label": "Tiramisú",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787428070.jpg",
+    "file": "products-1778787428070.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "6ad77126-f8d8-4472-8d04-c16487dc3773",
+    "label": "Agua sin Gas 500ml",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787538958.jpg",
+    "file": "products-1778787538958.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "2bd4e85f-a3eb-4066-81c5-6636ff59b303",
+    "label": "Cerveza Peroni",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787584075.jpg",
+    "file": "products-1778787584075.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "7c38dd56-f01c-49fa-bbf5-fe192e3c9913",
+    "label": "Muzzarella",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680187525.jpg",
+    "file": "products-1778680187525.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "3d28318b-8537-4ef3-ad04-deef117b0ad5",
+    "label": "Margherita",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680158995.jpg",
+    "file": "products-1778680158995.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "f6bf958a-1947-49d4-a9e8-1ddf0beb2ce9",
+    "label": "Jamón y Morrón",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680138006.jpg",
+    "file": "products-1778680138006.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "ae2906f3-f0ff-496c-9f5e-8e28267a084f",
+    "label": "Pepperoni",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778681461324.jpg",
+    "file": "products-1778681461324.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "b8a8cdcd-1f02-44cd-81ba-41d20d842890",
+    "label": "Faina con Provolone",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787211438.jpg",
+    "file": "products-1778787211438.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "daeeb7e6-0574-4a24-83c2-58c377810533",
+    "label": "Puttanesca",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778680034713.jpg",
+    "file": "products-1778680034713.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "74153464-b388-4f50-a053-c64ae0404962",
+    "label": "Muzzarella Tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1786208100213.jpeg",
+    "file": "products-1786208100213.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "f4865d95-a286-4a26-a9fa-c6006cc090a0",
+    "label": "Rúcula y Crudo",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778679835638.jpg",
+    "file": "products-1778679835638.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "8d82b0cd-2d4e-4cb9-9642-309871d86e20",
+    "label": "Jamón y Morrón Tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1786208197522.jpeg",
+    "file": "products-1786208197522.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "a3353ab6-660b-447f-9e85-19b3e114850e",
+    "label": "Faina al taglio",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1787420877860.jpeg",
+    "file": "products-1787420877860.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "33755759-5a9b-4959-a58d-11c19acc0eeb",
+    "label": "Quattro formagi tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1786810214706.jpeg",
+    "file": "products-1786810214706.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "817f252c-c3a8-4197-a13e-f8e860fa5429",
+    "label": "Empanada Verdura",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787312063.jpg",
+    "file": "products-1778787312063.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "9e9fb78b-f4f6-409e-ad33-984a6e5baa6e",
+    "label": "Aquarius",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787823241.webp",
+    "file": "products-1778787823241.webp"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "d3b7dd73-7962-4f47-a14b-c236e072bc4f",
+    "label": "Coca Cola",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787706735.jpg",
+    "file": "products-1778787706735.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "b31590c4-7351-4018-971f-febce781eed1",
+    "label": "Coco cola",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1778787731135.jpg",
+    "file": "products-1778787731135.jpg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "64367b79-1eda-44cc-9e82-740d74853e83",
+    "label": "Fugazzeta Tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1786208351910.jpeg",
+    "file": "products-1786208351910.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "6fa1914b-14cb-44f0-b98e-5345635edde0",
+    "label": "Empanada Jamón y Queso",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1785433522746.jpeg",
+    "file": "products-1785433522746.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "42240eaf-7d00-476c-a1f2-16b846898b85",
+    "label": "Pepperoni Tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1786208535156.jpeg",
+    "file": "products-1786208535156.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "140a7565-05ce-440b-b298-55aff08e226c",
+    "label": "Carbonara tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1791303112430.jpeg",
+    "file": "products-1791303112430.jpeg"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "52d95292-512e-4bf1-bd4a-601fb062782b",
+    "label": "Coca Cola 1.25ltrs",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1783097506600.webp",
+    "file": "products-1783097506600.webp"
+  },
+  {
+    "table": "products",
+    "column": "image",
+    "id": "af56b571-cbe9-4223-9af1-f5075d01b6d6",
+    "label": "Bianca Tg",
+    "oldUrl": "https://37j5ejcagjmqxngp.public.blob.vercel-storage.com/products/products-1786208461573.jpeg",
+    "file": "products-1786208461573.jpeg"
+  }
+]
