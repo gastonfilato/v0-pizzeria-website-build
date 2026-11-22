@@ -142,7 +142,7 @@ export default function BannersAdminPage() {
     if (file) handleFileSelected(file)
   }
 
-  // ── Upload file to Vercel Blob, then save URL to DB ──────────────────────
+  // ── Upload and compress file to Supabase, then save URL to DB ──────────────────────
   const handleSave = async () => {
     if (!editing) return
     setSaving(true)
@@ -152,7 +152,7 @@ export default function BannersAdminPage() {
       let finalUrl = ''
 
       if (editing.tab === 'file' && editing.file) {
-        // ── Upload to Vercel Blob via API route ──
+        // ── Upload to Supabase via API route ──
         setEditing({ ...editing, uploadProgress: 10 })
 
         const formData = new FormData()
